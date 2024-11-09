@@ -5,7 +5,6 @@ import Vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 import ViteFonts from 'unplugin-fonts/vite'
 import VueRouter from 'unplugin-vue-router/vite'
 import { VitePWA } from 'vite-plugin-pwa'
-
 // Utilities
 import { defineConfig } from 'vite'
 import { fileURLToPath, URL } from 'node:url'
@@ -25,7 +24,7 @@ export default defineConfig({
         name: 'Crimson Development Edition',
         short_name: 'Crimson',
         description: 'The in development edition of Crimson',
-        theme_color: '#ffffff'
+        theme_color: '#fff8f7'
       }
     }),
     VueRouter(),

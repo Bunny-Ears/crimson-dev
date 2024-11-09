@@ -11,12 +11,16 @@ import History from '@/components/History.vue'
 import Home from '@/components/Home.vue'
 import Welcome from '@/components/Welcome.vue'
 import index from '@/pages/index.vue'
+import Settings from '@/components/Settings.vue'
+import Test from '@/components/Test.vue'
 
 const routes = [
   {path: '/', component : index},
   {path: '/history', component : History},
   {path: '/home', component : Home},
-  {path: '/welcome', component : Welcome}
+  {path: '/welcome', component : Welcome},
+  {path: '/settings', component : Settings},
+  {path: '/test', component: Test}
 ]
 
 const router = createRouter({
